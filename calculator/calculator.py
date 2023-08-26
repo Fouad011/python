@@ -500,17 +500,9 @@ def buttons():
     btn = Button(app, text='=', font=('tajawal', 13), height=2, width=7, command=eq)
     btn.place(x=int(xVar), y=int(yVar))
 
-
-
 def Menu():
     pre()
     buttons()
     app.mainloop()
 Menu()
-
-
-# pyinstaller --onefile --icon='icon.ico' myfile.py
-# for delete termenal
-# pyinstaller --onefile --windowed --icon='icon.ico' myfile.py
-
 
